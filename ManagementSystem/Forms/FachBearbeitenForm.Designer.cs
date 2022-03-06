@@ -1,0 +1,390 @@
+﻿namespace ManagementSystem.Forms
+{
+    partial class FachBearbeitenForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox_lehrerID = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button_eingabeUebernehmen = new System.Windows.Forms.Button();
+            this.button_eingabeZuruecksetzen = new System.Windows.Forms.Button();
+            this.textBox_beschreibung = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox_stufe = new System.Windows.Forms.TextBox();
+            this.label_nachname = new System.Windows.Forms.Label();
+            this.textBox_bezeichnung = new System.Windows.Forms.TextBox();
+            this.label_vorname = new System.Windows.Forms.Label();
+            this.DataGridView_faecher = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.button_fachSuchen = new System.Windows.Forms.Button();
+            this.textBox_fachSuchen = new System.Windows.Forms.TextBox();
+            this.button_entferneFach = new System.Windows.Forms.Button();
+            this.textBox_fachID = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_faecher)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.ForeColor = System.Drawing.Color.White;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(914, 70);
+            this.panel1.TabIndex = 21;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(381, 18);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(173, 29);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Fach bearbeiten";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.textBox_fachID);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.button_fachSuchen);
+            this.panel2.Controls.Add(this.textBox_fachSuchen);
+            this.panel2.Controls.Add(this.button_entferneFach);
+            this.panel2.Controls.Add(this.textBox_lehrerID);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.button_eingabeUebernehmen);
+            this.panel2.Controls.Add(this.button_eingabeZuruecksetzen);
+            this.panel2.Controls.Add(this.textBox_beschreibung);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.textBox_stufe);
+            this.panel2.Controls.Add(this.label_nachname);
+            this.panel2.Controls.Add(this.textBox_bezeichnung);
+            this.panel2.Controls.Add(this.label_vorname);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 320);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(914, 291);
+            this.panel2.TabIndex = 22;
+            // 
+            // textBox_lehrerID
+            // 
+            this.textBox_lehrerID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBox_lehrerID.Location = new System.Drawing.Point(255, 126);
+            this.textBox_lehrerID.Name = "textBox_lehrerID";
+            this.textBox_lehrerID.Size = new System.Drawing.Size(183, 27);
+            this.textBox_lehrerID.TabIndex = 40;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label2.Location = new System.Drawing.Point(251, 104);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 19);
+            this.label2.TabIndex = 39;
+            this.label2.Text = "Lehrer:";
+            // 
+            // panel3
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.panel3.Location = new System.Drawing.Point(-10, 8);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(934, 10);
+            this.panel3.TabIndex = 38;
+            // 
+            // button_eingabeUebernehmen
+            // 
+            this.button_eingabeUebernehmen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button_eingabeUebernehmen.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button_eingabeUebernehmen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_eingabeUebernehmen.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_eingabeUebernehmen.ForeColor = System.Drawing.Color.White;
+            this.button_eingabeUebernehmen.Location = new System.Drawing.Point(757, 252);
+            this.button_eingabeUebernehmen.Name = "button_eingabeUebernehmen";
+            this.button_eingabeUebernehmen.Size = new System.Drawing.Size(125, 30);
+            this.button_eingabeUebernehmen.TabIndex = 37;
+            this.button_eingabeUebernehmen.Text = "Uebernehmen";
+            this.button_eingabeUebernehmen.UseVisualStyleBackColor = false;
+            this.button_eingabeUebernehmen.Click += new System.EventHandler(this.button_eingabeUebernehmen_Click);
+            // 
+            // button_eingabeZuruecksetzen
+            // 
+            this.button_eingabeZuruecksetzen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button_eingabeZuruecksetzen.BackColor = System.Drawing.Color.Orange;
+            this.button_eingabeZuruecksetzen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_eingabeZuruecksetzen.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_eingabeZuruecksetzen.ForeColor = System.Drawing.Color.White;
+            this.button_eingabeZuruecksetzen.Location = new System.Drawing.Point(606, 252);
+            this.button_eingabeZuruecksetzen.Name = "button_eingabeZuruecksetzen";
+            this.button_eingabeZuruecksetzen.Size = new System.Drawing.Size(125, 30);
+            this.button_eingabeZuruecksetzen.TabIndex = 36;
+            this.button_eingabeZuruecksetzen.Text = "Zuruecksetzen";
+            this.button_eingabeZuruecksetzen.UseVisualStyleBackColor = false;
+            this.button_eingabeZuruecksetzen.Click += new System.EventHandler(this.button_eingabeZuruecksetzen_Click);
+            // 
+            // textBox_beschreibung
+            // 
+            this.textBox_beschreibung.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBox_beschreibung.Location = new System.Drawing.Point(16, 200);
+            this.textBox_beschreibung.Multiline = true;
+            this.textBox_beschreibung.Name = "textBox_beschreibung";
+            this.textBox_beschreibung.Size = new System.Drawing.Size(422, 79);
+            this.textBox_beschreibung.TabIndex = 31;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label1.Location = new System.Drawing.Point(12, 178);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(105, 19);
+            this.label1.TabIndex = 30;
+            this.label1.Text = "Beschreibung:";
+            // 
+            // textBox_stufe
+            // 
+            this.textBox_stufe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBox_stufe.Location = new System.Drawing.Point(16, 126);
+            this.textBox_stufe.Name = "textBox_stufe";
+            this.textBox_stufe.Size = new System.Drawing.Size(183, 27);
+            this.textBox_stufe.TabIndex = 24;
+            // 
+            // label_nachname
+            // 
+            this.label_nachname.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label_nachname.AutoSize = true;
+            this.label_nachname.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_nachname.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label_nachname.Location = new System.Drawing.Point(12, 104);
+            this.label_nachname.Name = "label_nachname";
+            this.label_nachname.Size = new System.Drawing.Size(49, 19);
+            this.label_nachname.TabIndex = 23;
+            this.label_nachname.Text = "Stufe:";
+            // 
+            // textBox_bezeichnung
+            // 
+            this.textBox_bezeichnung.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBox_bezeichnung.Location = new System.Drawing.Point(16, 62);
+            this.textBox_bezeichnung.Name = "textBox_bezeichnung";
+            this.textBox_bezeichnung.Size = new System.Drawing.Size(183, 27);
+            this.textBox_bezeichnung.TabIndex = 22;
+            // 
+            // label_vorname
+            // 
+            this.label_vorname.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label_vorname.AutoSize = true;
+            this.label_vorname.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_vorname.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label_vorname.Location = new System.Drawing.Point(12, 40);
+            this.label_vorname.Name = "label_vorname";
+            this.label_vorname.Size = new System.Drawing.Size(99, 19);
+            this.label_vorname.TabIndex = 21;
+            this.label_vorname.Text = "Bezeichnung:";
+            // 
+            // DataGridView_faecher
+            // 
+            this.DataGridView_faecher.AllowUserToAddRows = false;
+            this.DataGridView_faecher.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.DataGridView_faecher.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.DataGridView_faecher.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.DataGridView_faecher.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DataGridView_faecher.BackgroundColor = System.Drawing.Color.LightGray;
+            this.DataGridView_faecher.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DataGridView_faecher.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DataGridView_faecher.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridView_faecher.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.DataGridView_faecher.ColumnHeadersHeight = 24;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGridView_faecher.DefaultCellStyle = dataGridViewCellStyle3;
+            this.DataGridView_faecher.EnableHeadersVisualStyles = false;
+            this.DataGridView_faecher.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_faecher.Location = new System.Drawing.Point(12, 77);
+            this.DataGridView_faecher.Name = "DataGridView_faecher";
+            this.DataGridView_faecher.RowHeadersVisible = false;
+            this.DataGridView_faecher.RowTemplate.Height = 80;
+            this.DataGridView_faecher.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DataGridView_faecher.Size = new System.Drawing.Size(880, 245);
+            this.DataGridView_faecher.TabIndex = 23;
+            this.DataGridView_faecher.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridView_faecher.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.DataGridView_faecher.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.DataGridView_faecher.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.DataGridView_faecher.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.DataGridView_faecher.ThemeStyle.BackColor = System.Drawing.Color.LightGray;
+            this.DataGridView_faecher.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_faecher.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.DataGridView_faecher.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DataGridView_faecher.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataGridView_faecher.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.DataGridView_faecher.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.DataGridView_faecher.ThemeStyle.HeaderStyle.Height = 24;
+            this.DataGridView_faecher.ThemeStyle.ReadOnly = false;
+            this.DataGridView_faecher.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.DataGridView_faecher.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.DataGridView_faecher.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataGridView_faecher.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DataGridView_faecher.ThemeStyle.RowsStyle.Height = 80;
+            this.DataGridView_faecher.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.DataGridView_faecher.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.DataGridView_faecher.Click += new System.EventHandler(this.DataGridView_faecher_Click);
+            // 
+            // button_fachSuchen
+            // 
+            this.button_fachSuchen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button_fachSuchen.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button_fachSuchen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_fachSuchen.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_fachSuchen.ForeColor = System.Drawing.Color.White;
+            this.button_fachSuchen.Location = new System.Drawing.Point(503, 126);
+            this.button_fachSuchen.Name = "button_fachSuchen";
+            this.button_fachSuchen.Size = new System.Drawing.Size(125, 30);
+            this.button_fachSuchen.TabIndex = 69;
+            this.button_fachSuchen.Text = "Suchen";
+            this.button_fachSuchen.UseVisualStyleBackColor = false;
+            this.button_fachSuchen.Click += new System.EventHandler(this.button_fachSuchen_Click);
+            // 
+            // textBox_fachSuchen
+            // 
+            this.textBox_fachSuchen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox_fachSuchen.Location = new System.Drawing.Point(634, 126);
+            this.textBox_fachSuchen.Name = "textBox_fachSuchen";
+            this.textBox_fachSuchen.Size = new System.Drawing.Size(248, 27);
+            this.textBox_fachSuchen.TabIndex = 68;
+            // 
+            // button_entferneFach
+            // 
+            this.button_entferneFach.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button_entferneFach.BackColor = System.Drawing.Color.Red;
+            this.button_entferneFach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_entferneFach.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_entferneFach.ForeColor = System.Drawing.Color.White;
+            this.button_entferneFach.Location = new System.Drawing.Point(453, 252);
+            this.button_entferneFach.Name = "button_entferneFach";
+            this.button_entferneFach.Size = new System.Drawing.Size(125, 30);
+            this.button_entferneFach.TabIndex = 65;
+            this.button_entferneFach.Text = "Entfernen";
+            this.button_entferneFach.UseVisualStyleBackColor = false;
+            this.button_entferneFach.Click += new System.EventHandler(this.button_entferneFach_Click);
+            // 
+            // textBox_fachID
+            // 
+            this.textBox_fachID.Location = new System.Drawing.Point(338, 62);
+            this.textBox_fachID.Name = "textBox_fachID";
+            this.textBox_fachID.Size = new System.Drawing.Size(100, 27);
+            this.textBox_fachID.TabIndex = 71;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.label4.Location = new System.Drawing.Point(376, 40);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(62, 19);
+            this.label4.TabIndex = 70;
+            this.label4.Text = "Fach ID:";
+            // 
+            // FachBearbeitenForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(914, 611);
+            this.Controls.Add(this.DataGridView_faecher);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "FachBearbeitenForm";
+            this.Text = "FachBearbeitenForm";
+            this.Load += new System.EventHandler(this.FachBearbeitenForm_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView_faecher)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.TextBox textBox_lehrerID;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button_eingabeUebernehmen;
+        private System.Windows.Forms.Button button_eingabeZuruecksetzen;
+        private System.Windows.Forms.TextBox textBox_beschreibung;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox_stufe;
+        private System.Windows.Forms.Label label_nachname;
+        private System.Windows.Forms.TextBox textBox_bezeichnung;
+        private System.Windows.Forms.Label label_vorname;
+        private Guna.UI2.WinForms.Guna2DataGridView DataGridView_faecher;
+        private System.Windows.Forms.Button button_fachSuchen;
+        private System.Windows.Forms.TextBox textBox_fachSuchen;
+        private System.Windows.Forms.Button button_entferneFach;
+        private System.Windows.Forms.TextBox textBox_fachID;
+        private System.Windows.Forms.Label label4;
+    }
+}

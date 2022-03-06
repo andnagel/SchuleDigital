@@ -1,0 +1,12 @@
+﻿Für die Icons:
+https://www.flaticon.com/de/kostenloses-icon/
+
+Für SQL:
+https://www.techonthenet.com/index.php
+https://www.w3schools.com/sql/
+SQL - Grundlagen und Datenbankdesign, Herdt Verlag
+
+Für Win Forms:
+https://docs.microsoft.com/de-de/visualstudio/ide/create-csharp-winform-visual-studio?view=vs-2022
+oder der YouTube Kanal "Programmieren Starten"
+https://www.youtube.com/watch?v=RyfP0GE6jv4
